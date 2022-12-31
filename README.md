@@ -12,7 +12,9 @@ How to enable PF on FreeBSD 12.1
    ```sh
    sysrc pf_enable=yes
    ```
-2. Download the file "pf.conf" and upload in your-option-folder.
+2. Download the file "pf.conf" and upload in your-option-folder. 
+
+NOTE: Please you need modificate the pf.conf PORTS for your PORTS or maybe you will be blocked.
 
 3. Configure the rules with the pf.conf
 
@@ -21,7 +23,6 @@ How to enable PF on FreeBSD 12.1
    ````
    
 If you want logs you can active with this commands:
-
 
 1. First command for enable Logs.
 
